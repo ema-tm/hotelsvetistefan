@@ -22,7 +22,7 @@ font-weight: bold;
 }
 
 .logo {width: 400px; height: 140px; padding: 30px;}
-.footer-logo {width: 250px; height: 90px; padding: 20px;}
+.footer-logo {width: 250px; height: 90px; padding: 20px; line-height: normal;}
 
 a[href^="tel:"] {color: inherit;text-decoration:none;}
 a {color: #f20000; text-decoration: none;}
