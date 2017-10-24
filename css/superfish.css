@@ -1,0 +1,48 @@
+nav{ position:relative; margin: 0px 0 0;background: #fff;border-top: 1px solid gray; border-bottom: 2px solid #000;margin-bottom: 15px;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{display:block;position:relative;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color: gray; text-decoration: none;}
+.sf-menu>li{display: inline-block;float: none;margin: 0 43px;padding:  24px 0 23px;}
+.sf-menu{text-align: center;padding: 3px 0;}
+
+.sf-menu a{ font: 100 18px/5px 'PT Sans Narrow', sans-serif; line-height: 14px; text-transform: uppercase; color:#000;}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover ul{left:-55px;top:62px;width: 147px;background: #1e1e1e;padding:22px 0 13px; z-index:99}
+.sf-menu li ul li{margin-bottom: 9px;padding-bottom: 2px;border-bottom: 1px solid #242424;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{color: #fff;}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:148px !important;top:-22px !important;}
+
+.sf-menu>li>a .menu-arrow{display:inline-block; width:5px;margin-left:5px;height:4px;text-indent:-100%; font-size:0; line-height:0;background: url('../images/menu_arrow.png') no-repeat;vertical-align: middle;}
+	 .sf-menu a:hover .menu-arrow, .sf-menu li.current>a .menu-arrow, .sf-menu .sfHover>a:hover .menu-arrow{background-position:0;}
+  .sf-menu>li{margin: 0 27px;}
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+	
+  .room .img_wrap, .room .img_wrap img{width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+  nav{
+		float:none;
+		font:12px/15px;
+		text-transform:uppercase;
+		padding:29px 10px;
+	}
+	.sf-menu>li {
+		margin: 0 15px;
+		padding: 0;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.sf-menu>li {margin: 0 3px;padding: 0;}
+	 nav {padding: 20px 10px;}
+
+}
