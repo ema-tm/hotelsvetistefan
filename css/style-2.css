@@ -1,9 +1,10 @@
 .ei-slider{
 	position: relative;
-	width: 100%;
+	width: auto;
 	max-width: 1920px;
 	height: 400px;
 	margin: 0 auto;
+	display: block;
 }
 .ei-slider-loading{
 	width: 100%;
