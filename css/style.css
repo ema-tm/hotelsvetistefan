@@ -63,14 +63,6 @@ a:hover {text-decoration: underline;}
 	color: #ffffff;
 	padding: 11px 0 0px;
 	border: none;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	border-radius: 500px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
 	text-transform: uppercase;
 }
 
